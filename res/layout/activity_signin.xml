@@ -14,31 +14,37 @@
 		android:gravity="center_horizontal"
 		android:layout_gravity="center_horizontal"/>
 
-	<Button
-		android:id="@+id/button_facebook"
-		android:text="@string/button_facebook"
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:layout_marginTop="15dp"
-		android:layout_marginLeft="20dp"
-		android:layout_marginRight="20dp"/>
-	
-	<Button
-		android:id="@+id/button_signin"
-		android:text="@string/button_email"
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:layout_marginTop="15dp"
-		android:layout_marginRight="20dp"
-		android:layout_marginLeft="20dp"/>
-	
+	<ImageView
+	    android:id="@+id/button_facebook"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:scaleType="fitCenter"
+	    android:src="@drawable/facebook"
+	    android:text="@string/button_facebook"
+	    />
+
 	<CheckBox android:id="@+id/check_remember"
 		android:text="@string/check_remember"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="5dp"
 		android:layout_marginRight="20dp"
-		android:layout_marginLeft="20dp"/>
+		android:layout_marginLeft="20dp"/>	
+	<Button
+	    android:id="@+id/button_signin"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="15dp"
+	    android:clickable="false"
+	    android:duplicateParentState="false"
+	    android:longClickable="false"
+	    android:text="@string/button_email" />
+	
+
 	
 	<TextView
 		android:id="@+id/text_new_account"

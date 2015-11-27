@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">KiiChat</string>
+	<string name="app_name">fChat</string>
 	<string name="image_blank"></string>
 	<string name="empty_result">Result is Empty</string>
 	<string name="action_settings">Settings</string>
